@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.sqlite3
+*.db
+.env
+.coverage
+htmlcov/
+
+# macOS files
+.DS_Store

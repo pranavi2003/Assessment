@@ -1,0 +1,13 @@
+[project]
+name = "enterprise-ai-gateway-assessment"
+version = "2.0.0"
+description = "MCP and LLM gateway engineering assessment reference implementation"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
